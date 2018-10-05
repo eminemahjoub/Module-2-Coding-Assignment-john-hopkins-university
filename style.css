@@ -1,0 +1,95 @@
+
+/*****************************
+        Base Style
+******************************/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+/*****************************
+        Typhography Style
+******************************/
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  line-height: 1.4;
+}
+/*****************************
+        Layout Style
+******************************/
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*****************************
+      Header Style
+******************************/
+.main-header {
+  text-align: center;
+}
+
+/*****************************
+      Content Style
+******************************/
+.content {
+  position: relative;
+  background-color: #fff;
+  border: solid 2px #000;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.content h3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+}
+.content p{
+  padding-top: 25px;
+}
+
+.red{
+  background-color: red;
+  color: #fff;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+}
+
+/*****************************
+      Media Queries
+******************************/
+@media (min-width: 768px) {
+  .grid-2{
+    width: 45%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+  }
+}
